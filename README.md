@@ -4,6 +4,64 @@
 
 A comprehensive web application to track and monitor student progress on Codeforces. The system helps educators and mentors keep track of student activities, detect inactivity, and send automated reminders to encourage consistent practice.
 
+## 📹 Video Demonstration
+
+[Watch the Codeforces Tracker Demo Video](https://drive.google.com/file/d/1lCrLCYrBBc8C8TJgpxT0lE3tYml9uW_G/view?usp=sharing)
+
+Check out the demo video above to see the application in action! The video showcases the main features and how to use the system effectively.
+
+## 📸 Screenshots
+
+Here are some screenshots of the application:
+
+<div align="center">
+  <img src="client/public/images/1.png" alt="Login Page" width="80%" />
+  <p><em>Login Page</em></p>
+  
+  <br />
+  
+  <img src="client/public/images/2.png" alt="Dashboard Table" width="80%" />
+  <p><em>Dashboard with Student Table</em></p>
+  
+  <br />
+  
+  <div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1; margin-right: 10px;">
+      <img src="client/public/images/3.png" alt="Profile View" width="100%" />
+      <p><em>Student Profile View</em></p>
+    </div>
+    <div style="flex: 1; margin-left: 10px;">
+      <img src="client/public/images/4.png" alt="Contest History" width="100%" />
+      <p><em>Contest History Tab</em></p>
+    </div>
+  </div>
+  
+  <br />
+  
+  <img src="client/public/images/5.png" alt="Problem Solving Tab" width="80%" />
+  <p><em>Problem Solving Statistics Tab</em></p>
+  
+  <br />
+  
+  <h3>Dark Theme</h3>
+  
+  <div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1; margin-right: 10px;">
+      <img src="client/public/images/6.png" alt="Dark Theme - Dashboard" width="100%" />
+      <p><em>Dark Theme - Dashboard</em></p>
+    </div>
+    <div style="flex: 1; margin-left: 10px;">
+      <img src="client/public/images/7.png" alt="Dark Theme - Profile" width="100%" />
+      <p><em>Dark Theme - Profile View</em></p>
+    </div>
+  </div>
+  
+  <br />
+  
+  <img src="client/public/images/8.png" alt="Dark Theme - Statistics" width="80%" />
+  <p><em>Dark Theme - Statistics View</em></p>
+</div>
+
 ## 🚀 Features
 
 - **Student Management**

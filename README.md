@@ -1,6 +1,5 @@
 # Codeforces Tracker (CF-Tracker)
 
-![GitHub](https://img.shields.io/github/license/Prasannakbhat123/CF-Tracker)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Prasannakbhat123/CF-Tracker)
 
 A comprehensive web application to track and monitor student progress on Codeforces. The system helps educators and mentors keep track of student activities, detect inactivity, and send automated reminders to encourage consistent practice.

@@ -27,17 +27,20 @@ export default function ContestHistory({ contests }) {
     filtered.reduce((worst, current) => current.ratingChange < worst.ratingChange ? current : worst, filtered[0]) : null;
 
   return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
+    <div className="space-y-6">      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <h3 className={`text-xl font-semibold ${dark ? 'text-white' : 'text-gray-800'}`}>
           <span className="flex items-center gap-2">
             <Trophy size={20} className={dark ? 'text-amber-400' : 'text-amber-600'} />
             Contest Performance
           </span>
-        </h3>          <div className={`flex rounded-lg overflow-hidden shadow-sm border ${dark ? 'border-gray-700' : 'border-gray-200'}`}>          {FILTERS.map((f, index) => (            <button
+        </h3>
+        
+        <div className={`flex flex-wrap rounded-lg overflow-hidden shadow-sm border ${dark ? 'border-gray-700' : 'border-gray-200'}`}>
+          {FILTERS.map((f, index) => (
+            <button
               key={f.value}
               onClick={() => setFilter(f.value)}              
-              className={`px-3 py-1.5 text-sm font-medium transition-colors border-0 cursor-pointer ${
+              className={`px-2 sm:px-3 py-1.5 text-xs sm:text-sm font-medium transition-colors border-0 cursor-pointer min-w-[60px] flex-1 sm:flex-none ${
                 filter === f.value
                   ? 'bg-indigo-600 text-white' 
                   : dark 
